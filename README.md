@@ -12,14 +12,15 @@ Backend Setup
    <br>
 
 pip install -r requirements.txt
+<br>
 <br> 2. Start the Backend Server
 <br>
 Using Docker
 <br>
 Run the following command to build and start your Docker containers:
 <br>
-
 docker-compose up --build
+
 <br>
 Without Docker
 <br>
@@ -28,12 +29,11 @@ If you prefer to run the services manually, follow these steps:
 
 Start RabbitMQ:
 <br>
-
 rabbitmq-server
+
 <br>
 Start Celery:
 <br>
-
 celery -A your_project_name worker --loglevel=info
 <br>
 Run your Python application:
