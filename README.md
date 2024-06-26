@@ -34,7 +34,7 @@ rabbitmq-server
 <br>
 Start Celery:
 <br>
-celery -A your_project_name worker --loglevel=info
+celery -A python-task-scheduling worker --loglevel=info
 <br>
 Run your Python application:
 <br>
