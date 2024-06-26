@@ -39,6 +39,7 @@ celery -A your_project_name worker --loglevel=info
 Run your Python application:
 <br>
 
+<br>
 Technologies Used
 <br>
 Backend: Python, Celery, RabbitMQ
